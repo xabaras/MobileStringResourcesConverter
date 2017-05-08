@@ -1,6 +1,6 @@
 /*
  * LocalizableStringsConverter
- * v. 1.0.2
+ * v. 1.0.3
  */
 
 $(document).ready(function() {
@@ -10,6 +10,7 @@ $(document).ready(function() {
 		
 		result = input.replace(new RegExp("\n\"", "g"), "\n<string name=\"");
 		result = result.replace(new RegExp("\" = \"", "g"), "\">");
+		result = result.replace(new RegExp("\"=\"", "g"), "\">");
 		result = result.replace(new RegExp("\";", "g"), "</string>");
 		result = result.replace(new RegExp("\'", "g"), "\\\'");
 		result = result.replace(new RegExp("%@", "g"), "%s");
