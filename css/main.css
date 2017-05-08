@@ -168,6 +168,19 @@ button
 	text-align: center;
 }
 
+#footer
+{
+	text-align: right;
+    margin-top: 16px;
+    color: gray;
+    font-size: 8pt;
+}
+
+#footer a
+{
+    color: gray;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
