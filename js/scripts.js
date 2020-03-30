@@ -1,6 +1,6 @@
 /*
  * LocalizableStringsConverter
- * v. 1.0.3
+ * v. 1.1
  */
 
 $(document).ready(function() {
@@ -19,6 +19,7 @@ $(document).ready(function() {
 		result = result.replace(new RegExp("/\\*", "g"), "<!--");
 		result = result.replace(new RegExp("\\*/", "g"), "-->");
 		result = result.replace(new RegExp("\\\\\"", "g"), "\"");
+		result = result.replace(new RegExp("//\s*([^\r\n]+)", "g"), "<!-- $1 -->");
 		result = result.substr(1, result.length - 1);
 		
 		$('#txtAndroid').val(result);
