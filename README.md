@@ -8,4 +8,4 @@ Even if the conversion algorithm (based on regular expressions) is not complete,
 
 Just paste in your strings and push the related button to convert them in either format.
 
-[Try it online](http://htmlpreview.github.io/?https://github.com/xabaras/MobileStringResourcesConverter/blob/master/index.html)
+[Try it online](https://xabaras.github.io/MobileStringResourcesConverter/)
